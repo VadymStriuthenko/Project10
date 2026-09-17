@@ -1,4 +1,3 @@
-```java
 import java.util.Scanner;
 
 public class Part3 {
@@ -107,7 +106,6 @@ public class Part3 {
             if (age != 0 && age > 0) {
                 System.out.println("Your age was entered correctly.");
             }
-
             // Another nested if/else
             if (age >= 18) {
                 if (genre.equals("non-fiction")) {
@@ -118,7 +116,6 @@ public class Part3 {
             } else {
                 System.out.println("You might enjoy reading with friends or discussing books at school.");
             }
-
         } else {
             System.out.println("Sorry, I don't recognize that genre.");
         }
@@ -126,8 +123,6 @@ public class Part3 {
         System.out.println("\nThank you for using the Book Recommendation App, "
                 + name + "! 📚");
         System.out.println("Happy reading!");
-
         scanner.close();
     }
 }
-```

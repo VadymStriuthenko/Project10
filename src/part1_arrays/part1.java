@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Part1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -69,7 +68,6 @@ public class Part1 {
         } else {
             System.out.println("You are probably still at school.");
         }
-
         // switch
         System.out.print("Choose a day number (1-3): ");
         int day = scanner.nextInt();
@@ -87,7 +85,6 @@ public class Part1 {
             default:
                 System.out.println("Unknown day.");
         }
-
         scanner.close();
     }
 }
