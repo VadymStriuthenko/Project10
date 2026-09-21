@@ -121,7 +121,7 @@ public class Part3 {
         }
 
         System.out.println("\nThank you for using the Book Recommendation App, "
-                + name + "! 📚");
+                + name);
         System.out.println("Happy reading!");
         scanner.close();
     }
